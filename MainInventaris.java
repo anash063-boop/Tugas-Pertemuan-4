@@ -46,6 +46,8 @@ public class MainInventaris {
         System.out.println("Stok Sweater Rajut ditambah menjadi 18");
         mapInventaris.get("V07").setStok(18);
         System.out.println("Stok Jersy MU Vintage ditambah menjadi 12");
+        mapInventaris.get("V04").setStok(9);
+        System.out.println("Stok Celana Corduroy dijual 5");
         
         
         mapInventaris.remove("V08");
